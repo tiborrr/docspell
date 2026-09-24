@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.44.0
+## v0.46.0-dev
 
 *Unreleased*
 
