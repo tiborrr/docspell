@@ -37,6 +37,9 @@
 
 ### 💚 Maintenance
 
+- Add indexes on `job(group_, state, priority, submitted)`,
+  `job(tracker, state)`, and `attachment(created)` to avoid sequential
+  scans in the JOEX scheduler and preview bulk tasks on large queues.
 - Document search stats profiles in the OpenAPI spec. The `general`
   profile still computes tag clouds; it omits dimension list aggregates
   and heavy field statistics.
